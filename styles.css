@@ -39,3 +39,18 @@ h1 .flex span:first-of-type {
 h1 .flex span:last-of-type {
     font-size: 0.7em;
 }
+
+section {
+    max-width: 40rem;
+    margin: 0 auto;
+    border: 2px solid #d0d0d5;
+}
+
+#years {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    background-color: #0a0a23;
+    color: #fff;
+}
